@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reader</title>
+    <link rel="icon" href="favico.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black;
+            position: relative;
+        }
+        #chapter-display {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            font-size: 18px;
+        }
+        #image-container {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .navigation {
+            margin: 20px;
+        }
+        #title {
+            color: white;
+        }
+        select {
+            margin: 0 0 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="chapter-display">Chapter 1</div>
+    <h1 id="title">Select a Title</h1>
+    <select id="title-select"></select>
+    <div id="image-container"></div>
+    <div class="navigation">
+        <button id="prev-chapter">Previous Chapter</button>
+        <button id="next-chapter">Next Chapter</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
