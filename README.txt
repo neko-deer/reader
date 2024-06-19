@@ -6,7 +6,7 @@ make your own directory for manga/manhwa with this format:
 │   ├── page_[num].[ext]
 
 ex:
-Iam gud nigga/
+Iam gud person/
 ├── Chapter 1/
 │   ├── page_01.jpeg
 
